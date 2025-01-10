@@ -25,22 +25,18 @@ import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-sec
 function App() {
   return (
     <div>
-      {/* ----------*****Accordian components*****----------
+      ----------*****Accordian components*****----------
       <Accordian />
-
       ----------*****Randpom color omponent*****----------
       <RandomColor />
-
       ----------*****Start rating component*****----------
       <StartRating noOfStars={10} />
-
       ----------*****Image Slider component*****----------
       <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
       />
-      
       ----------*****load More Data component*****----------
       <LoadMoreData />
       ----------*****Tree view component/ Menu component*****----------
@@ -50,14 +46,13 @@ function App() {
       ----------*****Light Dark mode component*****----------
       <LightDarkMode />
       ----------*****Scroll Indicator component*****----------
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> 
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       ----------*****Custom Tabs component*****----------
       <TabTest />
       ----------*****Custom Modal component*****----------
-      <ModalTest />     
+      <ModalTest />
       ----------*****Github Profile Finder component*****----------
       <GithubProfileFinder />
-       
       ----------*****Search Autocomplete With Api component*****----------
       <SearchAutocomplete />
       ----------*****Tic Tac Toe Game component*****----------
@@ -70,12 +65,10 @@ function App() {
       <UseFetchHookTest />
       ----------*****Use OnClick Outside - Custom Hook component*****----------
       <UseOnClickOutsideTest />
-    
       ----------*****Use Window Resize Hook component*****----------
       <UseWindowResizeTest />
       ----------*****Scroll To Top And Bottom Feature component*****----------
       <ScrollToTopAndBottom />
-      */}
       ----------*****Scroll To Particular section component*****----------
       <ScrollToSection />
     </div>
